@@ -1,0 +1,28 @@
+{
+  "name": "accountant-app-server",
+  "version": "1.0.0",
+  "description": "Backend server for the accountant app",
+  "main": "dist/server.js",
+  "scripts": {
+    "build": "tsc",                 
+    "start": "node dist/server.js",  
+    "dev": "nodemon src/server.ts"   
+  },
+  "dependencies": {
+    "express": "^5.0.0",            
+    "mongoose": "^7.3.4",          
+    "bcryptjs": "^2.4.3",           
+    "cors": "^2.8.5",               
+    "dotenv": "^16.0.1",            
+    "jsonwebtoken": "^9.0.0"        
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",     
+    "@types/node": "^22.9.0",       
+    "@types/bcryptjs": "^2.4.2",    
+    "@types/jsonwebtoken": "^9.0.0",
+    "nodemon": "^3.1.7",            
+    "ts-node": "^10.9.2",           
+    "typescript": "^5.6.3"          
+  }
+}
