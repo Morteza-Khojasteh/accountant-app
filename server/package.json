@@ -1,28 +1,31 @@
 {
   "name": "accountant-app-server",
   "version": "1.0.0",
-  "description": "Backend server for the accountant app",
   "main": "dist/server.js",
   "scripts": {
-    "build": "tsc",                 
-    "start": "node dist/server.js",  
-    "dev": "nodemon src/server.ts"   
+    "dev": "ts-node src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
   },
   "dependencies": {
-    "express": "^5.0.0",            
-    "mongoose": "^7.3.4",          
-    "bcryptjs": "^2.4.3",           
-    "cors": "^2.8.5",               
-    "dotenv": "^16.0.1",            
-    "jsonwebtoken": "^9.0.0"        
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^5.0.1",
+    "jsonwebtoken": "^9.0.0",
+    "mongodb": "^6.10.0",
+    "mongoose": "^7.8.2"
   },
   "devDependencies": {
-    "@types/express": "^5.0.0",     
-    "@types/node": "^22.9.0",       
-    "@types/bcryptjs": "^2.4.2",    
+    "@types/bcryptjs": "^2.4.2",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^6.1.1",
+    "@types/express": "^5.0.0",
     "@types/jsonwebtoken": "^9.0.0",
-    "nodemon": "^3.1.7",            
-    "ts-node": "^10.9.2",           
-    "typescript": "^5.6.3"          
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.9.0",
+    "nodemon": "^3.1.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.3"
   }
 }
