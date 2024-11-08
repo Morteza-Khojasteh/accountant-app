@@ -1,0 +1,23 @@
+{
+  "7f06805b-5fe4-4814-b545-8f81b22861a2": {
+    "id": "7f06805b-5fe4-4814-b545-8f81b22861a2",
+    "name": "bread",
+    "price": 2,
+    "quantity": 1000,
+    "image": "image-url"
+  },
+  "f0873978-2731-47b9-86ae-055f7da818d4": {
+    "id": "f0873978-2731-47b9-86ae-055f7da818d4",
+    "name": "Product2",
+    "price": 20,
+    "quantity": 10,
+    "image": "image-url"
+  },
+  "43f77408-d237-4df8-a017-5e9aa7fc6fc4": {
+    "id": "43f77408-d237-4df8-a017-5e9aa7fc6fc4",
+    "name": "Product3",
+    "price": 50,
+    "quantity": 8,
+    "image": "image-url"
+  }
+}
